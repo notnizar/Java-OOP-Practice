@@ -50,4 +50,9 @@ public class BankAccount {
         }
     }
     
+    public void print_info(){
+        System.out.println("Your Current Balnce is: " + balance);
+        System.out.println("Your Account Number is : "+ accountNumber);
+    }
+    
 }
